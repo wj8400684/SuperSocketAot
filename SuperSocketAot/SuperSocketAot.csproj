@@ -12,6 +12,11 @@
       <PackageReference Include="SuperSocket" Version="2.0.0-beta.20.448" />
     </ItemGroup>
         <ItemGroup>
-            <RdXmlFile Include="rd.xml"/>
+            <RdXmlFile Include="rd.xml" />
+        </ItemGroup>
+        <ItemGroup>
+          <Content Update="Properties\launchSettings.json">
+            <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+          </Content>
         </ItemGroup>
 </Project>

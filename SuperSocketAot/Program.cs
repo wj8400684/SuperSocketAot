@@ -2,7 +2,6 @@
 using SuperSocket.Server;
 using SuperSocket.Server.Abstractions;
 using SuperSocket.Server.Host;
-using SuperSocketAot;
 
 await SuperSocketHostBuilder.Create<StringPackageInfo, CommandLinePipelineFilter>()
     .ConfigureSuperSocket(server =>

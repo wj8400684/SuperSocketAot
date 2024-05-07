@@ -24,5 +24,4 @@ await SuperSocketHostBuilder.Create<StringPackageInfo, CommandLinePipelineFilter
         Console.WriteLine(packages.Key);
         return ValueTask.CompletedTask;
     })
-    .UseSessionFactory<AppSessionFactory>()
     .RunConsoleAsync();
